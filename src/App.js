@@ -7,8 +7,8 @@ function App() {
   const [taskPending, setTaskPending] = useState(0);
 
   const [tasks, setTasks] = useState([
-    { title: "Attend course", completed: true },
-    { title: "Do coding", completed: false },
+    { title: "Warm-up exercises", completed: true },
+    { title: "Order Pizza", completed: false },
     { title: "Hang out with friends", completed: false },
   ]);
 
